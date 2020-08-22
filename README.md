@@ -1,6 +1,8 @@
 # simple C webserver
 The goal of this project is to have a simple webserver in C that can serve web pages, I'm doing it as a simple pratice project
 ## Current situation
-right now all this program does is accept a connection and print what's received, without sending any data back
+This program prints what's received on console, and sends back www/index.html no matter the request, with basic http headers
 ## TODO
-basically everything lmao
++ File detection on www
++ File type detection of those files for Content-Type header
++ 404 message on not found
